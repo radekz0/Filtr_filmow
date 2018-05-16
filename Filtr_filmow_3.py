@@ -2,7 +2,7 @@
 import requests
 from bs4 import BeautifulSoup
 
-url = "http://www.filmweb.pl/ranking/film"
+url = "http://"
 source_code = requests.get(url)  # pobiera caly source code strony pod tym url
 plain_text = source_code.text  # przerabia source code na tekst
 soup = BeautifulSoup(plain_text, 'html.parser')  # tworzy obiekt soup i dzieki bibliotece BeautifulSoup mozemy przeszukiwac source code

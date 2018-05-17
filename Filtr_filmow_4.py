@@ -12,19 +12,19 @@ def gatunek_filmu():
             continue
         else:
             if x == Gatunki[0]:
-                url = "http://www.filmweb.pl/ranking/film/Komedia/13"
+                url = "http://"
             elif x == Gatunki[1]:
-                url = "http://www.filmweb.pl/ranking/film/Akcja/28"
+                url = "http://"
             elif x == Gatunki[2]:
-                url = "http://www.filmweb.pl/ranking/film"
+                url = "http://"
             elif x == Gatunki[3]:
-                url = "http://www.filmweb.pl/ranking/film/Dramat/6"
+                url = "http://"
             elif x == Gatunki[4]:
-                url = "http://www.filmweb.pl/ranking/film/Wojenny/26"
+                url = "http://"
             elif x == Gatunki[5]:
-                url = "http://www.filmweb.pl/ranking/premiere"
+                url = "http://"
             elif x == Gatunki[6]:
-                url = "http://www.filmweb.pl/ranking/film/Komedia+rom./30"
+                url = "http://"
             break
     return url
 
